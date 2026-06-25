@@ -1,0 +1,231 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* =========================================================================
+   DEXIAN DESIGN SYSTEM — GLPI Flow Viewer
+   ========================================================================= */
+
+@layer base {
+  :root {
+    --font-sans: 'Inter', system-ui, sans-serif;
+
+    /* Brand Colors */
+    --dexian-blue: 214 100% 54%;
+    --dexian-indigo: 231 70% 60%;
+    --dexian-violet: 258 68% 62%;
+
+    /* Glass */
+    --glass-bg: rgba(255, 255, 255, 0.92);
+    --glass-border: rgba(255, 255, 255, 0.25);
+    --glass-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+  }
+
+  html.dark {
+    --glass-bg: rgba(15, 23, 42, 0.75);
+    --glass-border: rgba(255, 255, 255, 0.06);
+    --glass-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    min-height: 100svh;
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    color: #1e293b;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+
+  html.dark body {
+    background: linear-gradient(135deg, #0f172a 0%, #020617 100%);
+    color: #e2e8f0;
+  }
+}
+
+/* =========================================================================
+   GLASSMORPHISM CARDS
+   ========================================================================= */
+.glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.glass-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+html.dark .glass-card:hover {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
+}
+
+/* =========================================================================
+   REACT FLOW CUSTOM NODES
+   ========================================================================= */
+.react-flow__node {
+  font-family: var(--font-sans) !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+}
+
+.react-flow__node-default,
+.react-flow__node-input,
+.react-flow__node-output {
+  border-radius: 12px !important;
+  padding: 10px 16px !important;
+  border-width: 1.5px !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08) !important;
+  transition: box-shadow 0.2s, transform 0.15s !important;
+  cursor: pointer !important;
+}
+
+.react-flow__node:hover .react-flow__node-default,
+.react-flow__node-default:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.14) !important;
+}
+
+.react-flow__node.selected .react-flow__node-default,
+.react-flow__node.selected .react-flow__node-input {
+  border-color: #3b82f6 !important;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25) !important;
+}
+
+.react-flow__edge-label {
+  font-family: var(--font-sans) !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+}
+
+/* Dark mode React Flow overrides */
+html.dark .react-flow__background {
+  background-color: transparent !important;
+}
+
+html.dark .react-flow__minimap {
+  background: rgba(15, 23, 42, 0.85) !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  border-radius: 12px !important;
+}
+
+html.dark .react-flow__controls {
+  background: rgba(15, 23, 42, 0.85) !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  border-radius: 12px !important;
+}
+
+html.dark .react-flow__controls button {
+  background: transparent !important;
+  border-color: rgba(255,255,255,0.1) !important;
+  color: #94a3b8 !important;
+}
+
+html.dark .react-flow__controls button:hover {
+  background: rgba(255,255,255,0.08) !important;
+  color: #e2e8f0 !important;
+}
+
+/* =========================================================================
+   BADGE TYPES
+   ========================================================================= */
+.badge-text { background: #dbeafe; color: #1d4ed8; }
+.badge-radio { background: #f3e8ff; color: #7c3aed; }
+.badge-checkbox { background: #dcfce7; color: #15803d; }
+.badge-file { background: #fef9c3; color: #854d0e; }
+.badge-dropdown { background: #ffedd5; color: #c2410c; }
+.badge-datetime { background: #e0f2fe; color: #0369a1; }
+.badge-number { background: #fce7f3; color: #be185d; }
+.badge-item { background: #f0fdf4; color: #166534; }
+.badge-email { background: #ede9fe; color: #5b21b6; }
+.badge-longtext { background: #f1f5f9; color: #475569; }
+
+html.dark .badge-text { background: rgba(37, 99, 235, 0.2); color: #93c5fd; }
+html.dark .badge-radio { background: rgba(124, 58, 237, 0.2); color: #c4b5fd; }
+html.dark .badge-checkbox { background: rgba(21, 128, 61, 0.2); color: #86efac; }
+html.dark .badge-file { background: rgba(133, 77, 14, 0.2); color: #fde68a; }
+html.dark .badge-dropdown { background: rgba(194, 65, 12, 0.2); color: #fdba74; }
+html.dark .badge-datetime { background: rgba(3, 105, 161, 0.2); color: #7dd3fc; }
+html.dark .badge-number { background: rgba(190, 24, 93, 0.2); color: #f9a8d4; }
+html.dark .badge-item { background: rgba(22, 101, 52, 0.2); color: #4ade80; }
+html.dark .badge-email { background: rgba(91, 33, 182, 0.2); color: #a78bfa; }
+html.dark .badge-longtext { background: rgba(71, 85, 105, 0.2); color: #94a3b8; }
+
+/* =========================================================================
+   SIDE PANEL ANIMATIONS
+   ========================================================================= */
+.side-panel-enter {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.side-panel-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.3s ease;
+}
+
+/* =========================================================================
+   SCROLLBAR CUSTOMIZATION
+   ========================================================================= */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.5);
+  border-radius: 99px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.8);
+}
+
+/* =========================================================================
+   SPINNER ANIMATION
+   ========================================================================= */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.25s ease forwards;
+}
+
+/* =========================================================================
+   REACT FLOW WRAPPER
+   ========================================================================= */
+.react-flow-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.react-flow__panel.react-flow__attribution {
+  opacity: 0.4;
+  font-size: 10px;
+}

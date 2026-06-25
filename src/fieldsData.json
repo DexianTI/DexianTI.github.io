@@ -1,0 +1,597 @@
+{
+  "2": [],
+  "3": [
+    {
+      "section": "Tipo de contratação",
+      "name": "Informe o tipo de contratação",
+      "type": "QuestionTypeRadio"
+    },
+    {
+      "section": "Tipo de contratação",
+      "name": "Interno?",
+      "type": "QuestionTypeRadio"
+    }
+  ],
+  "clt": [
+    {
+      "section": "Adicionais CLT",
+      "name": "Contratação1:",
+      "type": "QuestionTypeFile"
+    },
+    {
+      "section": "Adicionais CLT",
+      "name": "Aprovação2:",
+      "type": "QuestionTypeFile"
+    },
+    {
+      "section": "Adicionais CLT",
+      "name": "CV DEXIAN3",
+      "type": "QuestionTypeFile"
+    }
+  ],
+  "pj": [
+    {
+      "section": "Adicionais PJ e COOPERADOS",
+      "name": "CNPJ",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Adicionais PJ e COOPERADOS",
+      "name": "Razão Social",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Adicionais PJ e COOPERADOS",
+      "name": "COOPERATIVA",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Adicionais PJ e COOPERADOS",
+      "name": "Análise Jurídica?",
+      "type": "QuestionTypeRadio"
+    },
+    {
+      "section": "Adicionais PJ e COOPERADOS",
+      "name": "Analisar quantos meses?",
+      "type": "QuestionTypeNumber"
+    },
+    {
+      "section": "Adicionais PJ e COOPERADOS",
+      "name": "Horas complementares: ",
+      "type": "QuestionTypeDropdown"
+    },
+    {
+      "section": "Adicionais PJ e COOPERADOS",
+      "name": "Informe:",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Adicionais PJ e COOPERADOS",
+      "name": "Reembolso",
+      "type": "QuestionTypeDropdown"
+    },
+    {
+      "section": "Adicionais PJ e COOPERADOS",
+      "name": "Informe:",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Adicionais PJ e COOPERADOS",
+      "name": "Acordo de Descanso anual",
+      "type": "QuestionTypeDropdown"
+    },
+    {
+      "section": "Adicionais PJ e COOPERADOS",
+      "name": "Quantos dias",
+      "type": "QuestionTypeNumber"
+    },
+    {
+      "section": "Adicionais PJ e COOPERADOS",
+      "name": "Faturado pelo cliente?",
+      "type": "QuestionTypeCheckbox"
+    },
+    {
+      "section": "Adicionais PJ e COOPERADOS",
+      "name": "Ajuda de custo:",
+      "type": "QuestionTypeDropdown"
+    },
+    {
+      "section": "Adicionais PJ e COOPERADOS",
+      "name": "Qual? ",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Adicionais PJ e COOPERADOS",
+      "name": "Arquivos PJ",
+      "type": "QuestionTypeFile"
+    }
+  ],
+  "rpa": [
+    {
+      "section": "Contratação RPA",
+      "name": "RPA - Nome Completo",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Contratação RPA",
+      "name": "RG",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Contratação RPA",
+      "name": "CPF",
+      "type": "QuestionTypeNumber"
+    },
+    {
+      "section": "Contratação RPA",
+      "name": "Data de Nascimento",
+      "type": "QuestionTypeDateTime"
+    },
+    {
+      "section": "Contratação RPA",
+      "name": "Telefone de contato 1",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Contratação RPA",
+      "name": "Telefone de contato 2",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Contratação RPA",
+      "name": "E-mail Particular:",
+      "type": "QuestionTypeEmail"
+    },
+    {
+      "section": "Contratação RPA",
+      "name": "Endereço completo",
+      "type": "QuestionTypeLongText"
+    },
+    {
+      "section": "Contratação RPA",
+      "name": "Centro de Custos",
+      "type": "QuestionTypeItem"
+    },
+    {
+      "section": "Contratação RPA",
+      "name": "Titulo/Função/Atividade",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Contratação RPA",
+      "name": "Descrição das atividades",
+      "type": "QuestionTypeLongText"
+    },
+    {
+      "section": "Contratação RPA",
+      "name": "Data de Inicio1",
+      "type": "QuestionTypeDateTime"
+    },
+    {
+      "section": "Contratação RPA",
+      "name": "Duração do Contrato",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Contratação RPA",
+      "name": "Data prevista de encerramento",
+      "type": "QuestionTypeDateTime"
+    }
+  ],
+  "dados-pessoais": [
+    {
+      "section": "Dados Pessoais",
+      "name": "Nome completo",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Dados Pessoais",
+      "name": "Data de Nascimento",
+      "type": "QuestionTypeDateTime"
+    },
+    {
+      "section": "Dados Pessoais",
+      "name": "RG",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Dados Pessoais",
+      "name": "CPF",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Dados Pessoais",
+      "name": "CTPS",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Dados Pessoais",
+      "name": "Numero do PIS",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Dados Pessoais",
+      "name": "Telefone de contato 1 ",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Dados Pessoais",
+      "name": "Telefone de contato 2",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Dados Pessoais",
+      "name": "Telefone de contato 3",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Dados Pessoais",
+      "name": "E-mail Particular:",
+      "type": "QuestionTypeEmail"
+    },
+    {
+      "section": "Dados Pessoais",
+      "name": "Escolaridade",
+      "type": "QuestionTypeDropdown"
+    },
+    {
+      "section": "Dados Pessoais",
+      "name": "Endereço completo",
+      "type": "QuestionTypeLongText"
+    }
+  ],
+  "info-cliente": [
+    {
+      "section": "Informações do Cliente",
+      "name": "Responsável técnico no cliente: ",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Informações do Cliente",
+      "name": "Telefone de contato: ",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Informações do Cliente",
+      "name": "E-mail (cliente):",
+      "type": "QuestionTypeEmail"
+    }
+  ],
+  "gerais": [
+    {
+      "section": "Dados Contratuais",
+      "name": "Tipo",
+      "type": "QuestionTypeDropdown"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Data de inicio:",
+      "type": "QuestionTypeDateTime"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Empresa contratante:",
+      "type": "QuestionTypeDropdown"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Substituição?",
+      "type": "QuestionTypeDropdown"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Informe o substituído:",
+      "type": "QuestionTypeItem"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Salário / Pay Rate:",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Bill Rate Bruto",
+      "type": "QuestionTypeDropdown"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Valor Bill Rate",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Valor diário de VA:",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Valor diário de VR:",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Valor diário de TC:",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Cliente atendido (Centro de Custo):",
+      "type": "QuestionTypeItem"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Recrutador",
+      "type": "QuestionTypeItem"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Gestor Responsável pela Conta:",
+      "type": "QuestionTypeItem"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Responsável pelo cliente: ",
+      "type": "QuestionTypeItem"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Gestor/Ponto",
+      "type": "QuestionTypeItem"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "DH Responsável",
+      "type": "QuestionTypeItem"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Source",
+      "type": "QuestionTypeDropdown"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Informe",
+      "type": "QuestionTypeItem"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Fonte de recrutamento",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Cargo",
+      "type": "QuestionTypeItemDropdown"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Informe o cargo",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "CBO",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Número da vaga BH",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Alocação ou Projeto:",
+      "type": "QuestionTypeDropdown"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Localização onde será prestado o serviço: : ",
+      "type": "QuestionTypeItemDropdown"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Informe a localização",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Atividades do Cargo:",
+      "type": "QuestionTypeLongText"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Horário de trabalho: ",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Regra de apuração de ponto: ",
+      "type": "QuestionTypeRadio"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Localidade preferencial para realização do exame admissional",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Modalidade de contrato",
+      "type": "QuestionTypeDropdown"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Justificativa",
+      "type": "QuestionTypeDropdown"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "CPF do trabalhador substituído ",
+      "type": "QuestionTypeNumber"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Matricula",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "CNPJ Tomador/Faturamento",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Prazo do Contrato:",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Necessidade de sobreaviso:",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Tipo de atuação",
+      "type": "QuestionTypeDropdown"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Quantidade de dias presencial",
+      "type": "QuestionTypeNumber"
+    },
+    {
+      "section": "Dados Contratuais",
+      "name": "Termo de uso de veículo?",
+      "type": "QuestionTypeRadio"
+    },
+    {
+      "section": "Recursos",
+      "name": "Tipo:",
+      "type": "QuestionTypeCheckbox"
+    },
+    {
+      "section": "Recursos",
+      "name": "Fornecedor dos Recursos",
+      "type": "QuestionTypeDropdown"
+    },
+    {
+      "section": "Recursos",
+      "name": "Método de entrega: ",
+      "type": "QuestionTypeRadio"
+    },
+    {
+      "section": "Recursos",
+      "name": "Selecione o escritório",
+      "type": "QuestionTypeRadio"
+    },
+    {
+      "section": "Recursos",
+      "name": "Entregar até: ",
+      "type": "QuestionTypeDateTime"
+    },
+    {
+      "section": "Recursos",
+      "name": "Anexo de aprovação4",
+      "type": "QuestionTypeFile"
+    },
+    {
+      "section": "Acesso a sistemas",
+      "name": "Informe os sistemas utilizados",
+      "type": "QuestionTypeCheckbox"
+    },
+    {
+      "section": "Acesso a sistemas",
+      "name": "Perfil ServiceDesk",
+      "type": "QuestionTypeItem"
+    },
+    {
+      "section": "Observações Adicionais",
+      "name": "Observações",
+      "type": "QuestionTypeLongText"
+    },
+    {
+      "section": "Anexos",
+      "name": "Anexos da contratação5",
+      "type": "QuestionTypeFile"
+    }
+  ],
+  "epi": [
+    {
+      "section": "Solicitação de EPIS/Uniformes",
+      "name": "Informe os Uniformes ou EPIS",
+      "type": "QuestionTypeLongText"
+    }
+  ],
+  "tic": [
+    {
+      "section": "Recursos TIC (Equipamentos)",
+      "name": "Selecione os recursos",
+      "type": "QuestionTypeCheckbox"
+    },
+    {
+      "section": "Recursos TIC (Equipamentos)",
+      "name": "Informe o tipo: ",
+      "type": "QuestionTypeLongText"
+    },
+    {
+      "section": "Recursos TIC (Equipamentos)",
+      "name": "Prazos de entrega:",
+      "type": "QuestionTypeRadio"
+    }
+  ],
+  "bullhorn": [
+    {
+      "section": "BULLHORN - Parâmetros ",
+      "name": "Perfil de acesso",
+      "type": "QuestionTypeRadio"
+    }
+  ],
+  "rydoo": [
+    {
+      "section": "RYDOO - Formulário",
+      "name": "Lançará em outro CC? ",
+      "type": "QuestionTypeDropdown"
+    },
+    {
+      "section": "RYDOO - Formulário",
+      "name": "Informe quais: ",
+      "type": "QuestionTypeLongText"
+    },
+    {
+      "section": "RYDOO - Formulário",
+      "name": "código do banco: ",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "RYDOO - Formulário",
+      "name": "Banco",
+      "type": "QuestionTypeShortText"
+    },
+    {
+      "section": "RYDOO - Formulário",
+      "name": "Agencia",
+      "type": "QuestionTypeNumber"
+    },
+    {
+      "section": "RYDOO - Formulário",
+      "name": "Conta corrente:",
+      "type": "QuestionTypeShortText"
+    }
+  ],
+  "indicacao": [
+    {
+      "section": "INDICAÇÃO PREMIADA!",
+      "name": "Houve indicação?",
+      "type": "QuestionTypeRadio"
+    },
+    {
+      "section": "INDICAÇÃO PREMIADA!",
+      "name": "Quem indicou?",
+      "type": "QuestionTypeItem"
+    },
+    {
+      "section": "INDICAÇÃO PREMIADA!",
+      "name": "Valor do crédito:",
+      "type": "QuestionTypeShortText"
+    }
+  ]
+}
